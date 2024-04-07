@@ -92,10 +92,10 @@ body{
 
     .loader {
         border-radius: 100%;
-        border-top: 20px solid blue;
-        border-right: 20px solid gold;
-        border-bottom: 20px solid red;
-        border-left: 20px solid cyan;
+        border-top: 20px solid rgb(19, 19, 99);
+        border-right: 20px solid rgb(37, 27, 131);
+        border-bottom: 20px solid rgb(116, 116, 189);
+        border-left: 20px solid rgb(173, 164, 255);
         width: 25px;
         height: 25px;
         -webkit-animation: spin 2s linear infinite;
