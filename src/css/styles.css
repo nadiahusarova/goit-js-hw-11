@@ -1,7 +1,7 @@
 @import url('./reset.css');
 
 body{
-    background-color: rgb(0 0 0 / 85%);
+    background-color: F5F5F5;
     margin: 0;
   }
 
@@ -47,11 +47,8 @@ body{
   }
 
   .photos-list-item:hover{
-    box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
-    1px 2px 4px 0px rgba(0,255,255,0.7),
-    2px 4px 8px 0px rgba(0,255,255,0.7),
-    2px 4px 16px 0px rgba(0,255,255,0.7);
-    transform: scale(01.05)  
+  border: #4E75FF;
+  transform: scale(01.05)  
   }
   
   .photo {
@@ -71,11 +68,8 @@ body{
     transition: 0.3s;
   }
   input:active, input:hover {
-    /* border-color: #4E75FF; */
-    box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
-    1px 2px 4px 0px rgba(0,255,255,0.7),
-    2px 4px 8px 0px rgba(0, 255, 255, 0.702),
-    2px 4px 16px 0px rgba(0,255,255,0.7);
+    border-color: #4E75FF;
+    
   }
 
   button {
@@ -91,12 +85,9 @@ body{
     }
     
     button:hover{
-      box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
-                1px 2px 4px 0px rgba(0,255,255,0.7),
-                2px 4px 8px 0px rgba(0,255,255,0.7),
-                2px 4px 16px 0px rgba(0,255,255,0.7);
-                background-color: darkblue;
-                color: chocolate;
+     
+     background-color: royalblue;
+     color: FFFFFF;
     }
 
     .loader {
